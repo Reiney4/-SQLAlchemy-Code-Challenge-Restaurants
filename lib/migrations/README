@@ -1,4 +1,4 @@
-Generic single-database configuration.
+
 #  SQLAlchemy Code Challenge: Restaurants
 
 ## Introduction
@@ -7,24 +7,25 @@ This repo contains code for a restaurant review system for restuarants-code-chal
 
 This project utilizes the `pytest` library for testing purposes. The `pytest framework` makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.
 
-*The test suite encompases all deliverables for this code challenge. All tests should be passing.*
 
 ## Table of Contents
-- [Technologiesused](#technologiesused)
-- [Installation](#installation)
-- [Usage](#usage)
-
-- [Author & License](#author--license)
+* Technologies used
+* Installation
+* Usage
+* Author
 
 ## Technologies used
-Python
-SQLAlchemy
+* Python
+* SQLAlchemy
+* Faker
+* Alembic
+
 ## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/JOY19ANYANGO/restuarants-code-challenge-sqlalchemy.git
+git clone https://github.com/Reiney4/SQLAlchemy-Code-Challenge-Restaurants
 ```
 
 ### 2. Navigate to the project's directory
