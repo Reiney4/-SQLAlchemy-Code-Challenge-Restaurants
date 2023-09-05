@@ -55,8 +55,8 @@ pipenv shell
 * Website contains tables for restaurants reviews and customers.
 * The methods for the restaurant,reviews and customers models are in the `models.py` file.
 * To test the methods enter into the pipenv shell and ensure that you are in `lib` directory then run `python3 debug.py`.
-## Author & License
 
-Authored by [Joy Anyango](https://github.com/JOY19ANYANGO).
+## Author
+Valerie Kandagor
 
-Licensed under the [MIT](https://choosealicense.com/licenses/mit/)
+
