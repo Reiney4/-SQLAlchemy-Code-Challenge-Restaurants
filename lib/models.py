@@ -5,7 +5,7 @@ from sqlalchemy.orm import relationship, backref, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 # Create a SQLAlchemy database engine
-engine = create_engine('sqlite:///restaurbase.db')
+engine = create_engine('sqlite:///restaurants.db')
 inspector = inspect(engine)
 Session = sessionmaker(bind=engine)
 session = Session()
@@ -136,4 +136,4 @@ class Review(Base):
             f'restaurant id ={self.restaurant_id})'
 
 # Create the database tables based on the defined models
-# Base.metadata.create_all(engine)  
+Base.metadata.create_all(engine)
