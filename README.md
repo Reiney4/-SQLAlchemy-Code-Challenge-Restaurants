@@ -1,1 +1,0 @@
-# -SQLAlchemy-Code-Challenge-Restaurants
